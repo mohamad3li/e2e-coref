@@ -4,9 +4,10 @@ cd /code
 mkdir coref-english
 cd coref-english
 ```
-## create new virtualenv
+## create and activate a new virtualenv
 ```console
 virtualenv -p python3 venv-e2e
+source venv-e2e/bin/activate
 ```
 ## clone kentonl repo
 ```console
